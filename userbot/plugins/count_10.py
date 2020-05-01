@@ -15,7 +15,7 @@ async def _(event):
     if event.fwd_from:
         return
 
-    animation_interval = 3
+    animation_interval = 0.3
 
     animation_ttl = range(0, 10)
 
@@ -27,7 +27,6 @@ async def _(event):
 
     animation_chars = [
     
-    '0',
     '1',
     '2',
     '3',
@@ -37,7 +36,8 @@ async def _(event):
     '7',
     '8',
     '9',
-    '10'
+    '10',
+    '11'
     
     ]
 
