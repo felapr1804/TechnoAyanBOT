@@ -12,11 +12,9 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](t.me/TechnoAyanBoT)\n\n"
-                    "`Hello, this is Protected Security Service.You have found your way here to my master,`"
-                    f"{DEFAULTUSER}`'s inbox.\n\n"
-                    "Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.`\n\n"
-                    "** Send** `/start` ** so that we can decide why you're here.**")
+USER_BOT_NO_WARN = ("**Hello ! This is an Automated Reply\n\nYou have found your way here to my master** "
+                    f"{DEFAULTUSER}**'s inbox.\n\n**"
+                    "**My Sir is Watching Avengers Endgame\n\nDrop Your Messege Hopefully You['](https://telegra.ph/file/298023b2595a519bfa12e.mp4)ll Get A Reply Within 3-4 Light Years\n\nOr👇👇\n\nLeave Your Girlfriend's Name + Phone Number + Address, And Count Stars You'll Get Instant Reply After Completing This Task**\n\nType `/start` To Waste Your Time😇\n.                                                                    .\n.                                                                    .\n.                                                                    .")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
