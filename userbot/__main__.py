@@ -10,9 +10,6 @@ from userbot import LOAD_PLUG, BOTLOG_CHATID, LOGS
 from pathlib import Path
 import asyncio
 import telethon.utils
-import time
-
-botStartTime = time.time()
 
 async def add_bot(bot_token):
     await bot.start(bot_token)
@@ -58,5 +55,3 @@ if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
     bot.run_until_disconnected()
-
-
