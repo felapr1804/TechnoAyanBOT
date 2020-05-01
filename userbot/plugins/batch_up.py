@@ -14,9 +14,10 @@ from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"upb"))
 async def batch_upload(event):
+	await event.edit("Trying to start upload...")
 	if event.fwd_from:
 		return   
-	temp_dir = Config.TEMP_DIR	
+	temp_dir = Config.TEMP_DOWNLOAD_DIRECTORY	
 	if os.path.exists(temp_dir):    
 		files = os.listdir(temp_dir)
 		files.sort()
