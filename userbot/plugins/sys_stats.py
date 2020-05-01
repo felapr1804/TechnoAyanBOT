@@ -8,7 +8,7 @@ import asyncio
 from telethon import events
 from uniborg.util import admin_cmd, humanbytes,get_readable_time
 import shutil
-from userbot import botStartTime
+from uniborg import botStartTime
 
 
 @borg.on(admin_cmd(pattern=r"hstat"))
